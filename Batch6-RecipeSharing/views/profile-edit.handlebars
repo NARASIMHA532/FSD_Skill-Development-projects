@@ -1,0 +1,46 @@
+<div class="profile__edit__content">
+    <form method="POST" action="/api/users/updateProfile" enctype="multipart/form-data">
+        <section class="profile__update__form">
+        <h1 class="profile-header-update">Update Your Profile</h1>
+            <div class="update__image">
+                <div>
+                    <img src="/uploads/{{user_image}}" alt="Profile Image" class="edit__profile__image">
+                </div>
+                <div class="update__image__input">
+                    <input type="file" name="profile-file" id="profile-file" value="Upload profile picture"/>
+                </div>
+            </div>
+    
+            <div class="profile__update">
+                <p>FIRST NAME</p>
+                <input
+                type="text"
+                value="{{first_name}}"
+                class="update__input"
+                name="firstname"
+                placeholder="E.g. Sampreeti "
+                />
+                <br>
+                <p>LAST NAME</p>
+                <input
+                type="text"
+                value="{{last_name}}"
+                class="update__input"
+                name="lastname"
+                placeholder="E.g. Das"
+                />
+                <br>
+                <p>BIOGRAPHY</p>
+                <textarea rows="10"
+                class="update__textarea"
+                name="userbio"
+                placeholder="E.g. Write something about you."
+                >{{user_bio}}</textarea>
+            </div>
+            <div class="edit__profile__btn__holder">
+               <button type="submit" class="edit__profile__btn"><i class="fa-solid fa-check"></i>Save Changes</button>
+            </div>
+        </section> 
+         
+    </form>
+</div>
