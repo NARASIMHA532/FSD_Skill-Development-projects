@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header and Navbar -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> VS..</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#order">order</a>
+            <a href="#review">review</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!-- Search Form -->
+    <form id="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close-search"></i>
+    </form>
+    <!-- Sections -->
+    <section id="home">
+        <h2>HOME</h2>
+        <p>We are dedicated to serving you delicious meals made from the freshest ingredients.</p>
+        <div class="dishes-container">
+            <!-- Dish 1 -->
+            <div class="dish-item">
+                <img src="images/img1.jpeg" alt="Spaghetti Carbonara" class="dish-image">
+                <h3>Chicken Biryani</h3>
+                <p>In a world full of rice, choose biryani.</p>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 2 -->
+            <div class="dish-item">
+                <img src="images/img2 - Copy.jpeg" alt="Grilled Salmon" class="dish-image">
+                <h3>Noodles</h3>
+                <p>Noodles are the ultimate comfort food.</p>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 3 -->
+            <div class="dish-item">
+                <img src="images/img3.jpeg" alt="Caesar Salad" class="dish-image">
+                <h3>Tandoori chicken</h3>
+                <p>Tandoori Chicken is a popular Indian dish where marinated chicken is grilled to perfection in a Tandoor, a cylindrical clay oven.</p>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="dishes">
+        <h2>Our Dishes</h2>
+        <p>Explore our variety of flavorful dishes.</p>
+        <div class="dishes-container">
+            <!-- Dish 1 -->
+            <div class="dish-item">
+                <img src="images/img4.jpeg" alt="Dish 1" class="dish-image">
+                <h3>Burger</h3>
+                <p class="price">$10.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 2 -->
+            <div class="dish-item">
+                <img src="images/img5.jpeg" alt="Dish 2" class="dish-image">
+                <h3>Pizza</h3>
+                <p class="price">$8.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 3 -->
+            <div class="dish-item">
+                <img src="images/img6.jpg" alt="Dish 3" class="dish-image">
+                <h3>Dessert</h3>
+                <p class="price">$12.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 4 -->
+            <div class="dish-item">
+                <img src="images/img7.jpg" alt="Dish 4" class="dish-image">
+                <h3>Thick Shake</h3>
+                <p class="price">$9.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 5 -->
+            <div class="dish-item">
+                <img src="images/img8.jpeg" alt="Dish 5" class="dish-image">
+                <h3>Fried Chicken</h3>
+                <p class="price">$11.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+            <!-- Dish 6 -->
+            <div class="dish-item">
+                <img src="images/img9.jpeg" alt="Dish 6" class="dish-image">
+                <h3>Chocolate Lava Cake</h3>
+                <p class="price">$6.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About</h2>
+        <div class="about-container">
+            <!-- Text Content -->
+            <div class="about-text">
+                <p>
+                    At our restaurant, we offer an exceptional dining experience that combines delicious flavors, quality ingredients, and a welcoming atmosphere. 
+                    Our dishes are crafted with care using the freshest, locally sourced ingredients, ensuring every bite is a burst of flavor. 
+                    With a diverse menu catering to all tastes and dietary preferences, there's something for everyone, from classic comfort food to innovative signature dishes you won’t find anywhere else.
+                    We pride ourselves on providing fast, friendly, and reliable service, whether you’re dining in, taking out, or ordering online.
+                    Our cozy and inviting ambiance creates the perfect setting to relax and connect with loved ones. 
+                    Choose us, and let us bring joy to your table!
+                </p>
+            </div>
+            <!-- Image Content -->
+            <div class="about-image">
+                <img src="images/img10.jpeg" alt="Restaurant Interior" class="about-img">
+            </div>
+        </div>
+    </section>
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <p>Order your favorite dishes for takeout or delivery!</p>
+        
+        <form id="orderForm">
+            <!-- Select dishes -->
+            <label for="dish-selection">Select Your Dish:</label>
+            <select id="dish-selection" name="dish" required>
+                <option value="">-- Select a Dish --</option>
+                <option value="Chicken Biryani">Chicken Biryani - $12.99</option>
+                <option value="Noodles">Noodles - $8.99</option>
+                <option value="Tandoori Chicken">Tandoori Chicken - $14.99</option>
+                <option value="Burger">Burger - $10.99</option>
+                <option value="Pizza">Pizza - $8.99</option>
+                <option value="Dessert">Dessert - $12.99</option>
+                <option value="Thick Shake">Thick Shake - $9.99</option>
+                <option value="Fried Chicken">Fried Chicken - $11.99</option>
+                <option value="Chocolate Lava Cake">Chocolate Lava Cake - $6.99</option>
+            </select>
+    
+            <!-- Quantity -->
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+            
+            <!-- Customer Name -->
+            <label for="customer-name">Your Name:</label>
+            <input type="text" id="customer-name" name="name" placeholder="Enter your name" required>
+            
+            <!-- Customer Contact -->
+            <label for="customer-phone">Phone Number:</label>
+            <input type="tel" id="customer-phone" name="phone" placeholder="Enter your phone number" required>
+            
+            <!-- Delivery or Pickup -->
+            <label for="delivery-option">Choose an Option:</label>
+            <select id="delivery-option" name="delivery" required>
+                <option value="">-- Select Option --</option>
+                <option value="Delivery">Delivery</option>
+                <option value="Pickup">Pickup</option>
+            </select>
+    
+            <!-- Address (for delivery) -->
+            <div id="delivery-address" style="display: none;">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your delivery address" rows="3"></textarea>
+            </div>
+    
+            <!-- Submit Order -->
+            <button type="submit" id="place-order-btn">Place Order</button>
+        </form>
+    
+        <!-- Thank You Message -->
+        <div id="order-thank-you" style="display: none;">
+            <p>Thank you for your order! We’ll get it ready shortly.</p>
+        </div>
+    </section> 
+
+    <section id="review">
+        <h2>Customer Reviews</h2>
+        <p>See what our customers have to say!</p>
+        
+        <div id="reviews-container">
+            <!-- Existing reviews with star ratings -->
+            <div class="review-item">
+                <p><strong>John Doe</strong>: Amazing food and great service!</p>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="review-item">
+                <p><strong>Jane Smith</strong>: Loved the ambiance and the desserts were divine!</p>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Review submission form -->
+        <form id="review-form">
+            <label for="review-name">Name:</label>
+            <input type="text" id="review-name" placeholder="Your Name" required>
+            
+            <label for="review-message">Review:</label>
+            <textarea id="review-message" placeholder="Your Review" rows="4" required></textarea>
+            
+            <label for="review-rating">Rating:</label>
+            <div id="rating-stars">
+                <i class="fas fa-star" data-value="1"></i>
+                <i class="fas fa-star" data-value="2"></i>
+                <i class="fas fa-star" data-value="3"></i>
+                <i class="fas fa-star" data-value="4"></i>
+                <i class="fas fa-star" data-value="5"></i>
+            </div>
+            <input type="hidden" id="review-rating" name="rating" required>
+            
+            <button id="send-message-btn">Submit Review</button>
+        </form>
+    
+        <!-- Thank you message -->
+        <div id="thank-you-message" style="display: none;">
+            <p>Thank you for your review!</p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Our Location</h3>
+                <p>1234 Foodie Street, Food City</p>
+                <p>Email: contact@resto.com</p>
+                <p>Phone: +123 456 7890</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <footer>
+        <p>&copy; 2023 Our Restaurant. All rights reserved.</p>
+    </footer>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
